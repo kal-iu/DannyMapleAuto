@@ -1,176 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Danny Maple Auto | Reliable Tires & Auto Services in Whitby</title>
-        <link rel="stylesheet" href="style.css">
 
-        <link rel="icon" type="image/png" href="/images/layout images/favi.png">
- 
-        <!-- Font Awesome (v6.5.1) -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Google Fonts Link -->
-        <link rel="preconnect" href="https://googleapis.com">
-        <link rel="preconnect" href="https://gstatic.com" crossorigin>
-        <link href="https://googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Danny Maple Auto | Tires & Auto Service in Whitby</title>
 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/images/layout images/favi.png">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <!-- Local SEO Structured Schema Markup -->
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "AutoRepair",
-          "name": "Danny Maple Auto",
-          "telephone": "905-430-0952",
-          "address": {
-            "@type": "PostalAddress",+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+
+    <!-- Local business information for search engines -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "Danny Maple Auto",
+        "telephone": "905-430-0952",
+        "address": {
+            "@type": "PostalAddress",
             "streetAddress": "112 Warren Road, Unit 2",
             "addressLocality": "Whitby",
             "addressRegion": "ON",
-            "postalCode": "L1N",
+            "postalCode": "L1N 2B2",
             "addressCountry": "CA"
-          },
-          "openingHoursSpecification": [
+        },
+        "openingHoursSpecification": [
             {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "09:00",
-              "closes": "18:00"
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "18:00"
             }
-          ]
-        }
-        </script>
-    </head>
- 
-    <body>
-        <!-- HEADER & NAV LINKS -->
-        <header class="sticky-header">
-            <a href="tel:9054300952" id="header-cta" class="accent-button">Call Now</a>
-            
-            <div id="header-brand">
-                <!--
-                <div class="logo-container">
-                    <img src="images/layout images/Logo.png" alt="Logo" class="header-title-img">
-                </div>
-                -->
-                <div class="header-title-text">
-                    <div class="header-title-line">Danny Maple Auto</div>
-                </div>
-            </div>
- 
-            <nav>
-                <div class="header-links-container">
-                    <ul class="header-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#work-gallery">Our Shop</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
- 
-        <!-- HERO -->
-        <section id="hero">
-            <h1 class="hero-title">Affordable Tires &</h1>
-            <h1 class="hero-title">Auto Service, Done Fast.</h1>
-            <div id="hero-details">
-                <p id="hero-description">New tire installation, wheel balancing, oil changes, and parts. Serving Whitby, ON since 2005.</p>
-            </div>
+        ]
+    }
+    </script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="tel:9054300952" class="call-button">Call Now</a>
+
+        <a href="/" class="site-name">
+            Danny Maple Auto
+        </a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Our Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+            <h1>
+                Affordable Tires &<br>
+                Auto Service, Done Fast.
+            </h1>
+
+            <p>
+                New tire installation, wheel balancing, oil changes,
+                and parts. Serving Whitby since 2005.
+            </p>
         </section>
- 
-        <!-- ABOUT -->
-        <section id="about">
-            <figure class="about-fig">
-                <!-- Gmaps location -->
-                <a href="https://google.com" target="_blank">    
-                    <img src="images/layout images/business-street-view.png" alt="Danny Maple Auto Shop Front" class="about-img">
-                </a>
-            </figure>
-            <div id="about-text">
-                <h2 id="about-title">About Our Shop</h2>
-                <p class="about-main">
-                    Conveniently located on Warren Road, Danny Maple Auto provides straightforward, professional mechanical services, parts, and tire installations seven days a week.
+
+
+        <section id="about" class="about">
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=112+Warren+Road+Whitby+ON"
+                target="_blank"
+                rel="noopener"
+                class="about-photo"
+            >
+                <img
+                    src="images/layout images/business-street-view.png"
+                    alt="Danny Maple Auto shop on Warren Road in Whitby"
+                >
+            </a>
+
+            <div>
+                <p class="about-label">About Our Shop</p>
+
+                <h2>
+                    Straightforward mechanical service,
+                    parts, and tire installation in Whitby.
+                </h2>
+
+                <p class="shop-hours">
+                    Mon - Sun: 9:00 AM - 6:00 PM
+                    &nbsp;•&nbsp;
+                    <span id="shop-status">Checking status...</span>
                 </p>
-                <div class="about-quote">
-                    <p>Mon - Sun: 9:00 AM - 6:00 PM &nbsp;•&nbsp; <span id="shop-status">Checking Status...</span></p>
-                </div>
             </div>
+
         </section>
- 
-        <!-- SERVICES & REVIEWS -->
-        <section id="services">
-            <div class="services-side">
-                <h2>Our Mechanical & Tire Services</h2>
-                <div class="services-grid-container">
-                    <div class="service-card">
-                        <h3>Tire Solutions</h3>
-                        <p>New tires supply, professional installation, mounting, and high-precision computer balancing.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Fluid & Maintenance</h3>
-                        <p>Warranty-approved engine oil changes, fluid flushes, and filter replacements.</p>
-                    </div>
-                    <div class="service-card">
+
+
+        <section id="services" class="services">
+
+            <div>
+                <h2>Mechanical & Tire Services</h2>
+
+                <div class="service-list">
+
+                    <article class="service">
+                        <h3>Tires</h3>
+                        <p>
+                            New tire supply and installation, mounting,
+                            and computer wheel balancing.
+                        </p>
+                    </article>
+
+                    <article class="service">
+                        <h3>Oil & Maintenance</h3>
+                        <p>
+                            Oil changes, fluid service, filters,
+                            and regular vehicle maintenance.
+                        </p>
+                    </article>
+
+                    <article class="service">
                         <h3>Auto Parts</h3>
-                        <p>Direct component sourcing, basic replacement services, and mechanical updates.</p>
-                    </div>
+                        <p>
+                            Parts sourcing and basic replacement
+                            services for a range of vehicles.
+                        </p>
+                    </article>
+
                 </div>
             </div>
- 
-            <div class="work-side" id="work-gallery">
-                <h2>Shop Gallery</h2>
-                <div class="carousel">
-                    <div class="group">
-                        <div class="card"><img src="images/site images/carousel/image-1.png" class="card-img" alt="Shopfront"></div>
-                        <div class="card"><img src="images/site images/carousel/image-2.png" class="card-img" alt="Car lift"></div>
-                        <div class="card"><img src="images/site images/carousel/image-3.png" class="card-img" alt="Inside shop"></div>
-                        <div class="card"><img src="images/site images/carousel/image-4.png" class="card-img" alt="New tire stock"></div>
-                        <div class="card"><img src="images/site images/carousel/image-4.png" class="card-img" alt="Under hood service"></div>
+
+
+            <div id="gallery" class="shop-gallery">
+
+                <h2>Our Shop</h2>
+
+                <div class="photo-window">
+
+                    <div class="photo-list">
+
+                        <img
+                            src="images/site images/carousel/image-1.png"
+                            alt="Danny Maple Auto shop exterior"
+                        >
+
+                        <img
+                            src="images/site images/carousel/image-2.png"
+                            alt="Vehicle on a lift at Danny Maple Auto"
+                        >
+
+                        <img
+                            src="images/site images/carousel/image-3.png"
+                            alt="Inside Danny Maple Auto"
+                        >
+
+                        <img
+                            src="images/site images/carousel/image-4.png"
+                            alt="Tires in stock at Danny Maple Auto"
+                        >
+
+                        <!-- Duplicate images for the scrolling gallery -->
+                        <img
+                            src="images/site images/carousel/image-1.png"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <img
+                            src="images/site images/carousel/image-2.png"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <img
+                            src="images/site images/carousel/image-3.png"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <img
+                            src="images/site images/carousel/image-4.png"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
                     </div>
-                    <div aria-hidden="true" class="group">
-                        <div class="card"><img src="images/site images/carousel/image-1.png" class="card-img" alt="Shopfront"></div>
-                        <div class="card"><img src="images/site images/carousel/image-2.png" class="card-img" alt="Car lift"></div>
-                        <div class="card"><img src="images/site images/carousel/image-3.png" class="card-img" alt="Inside shop"></div>
-                        <div class="card"><img src="images/site images/carousel/image-4.png" class="card-img" alt="New tire stock"></div>
-                        <div class="card"><img src="images/site images/carousel/image-4.png" class="card-img" alt="Under hood service"></div>
-                    </div>
+
                 </div>
+
             </div>
+
         </section>
- 
-        <!-- CONTACT & MAP EMBED -->
-        <section id="contact">
-            <div class="contact-info">
+
+
+        <section id="contact" class="contact">
+
+            <div>
                 <h2>Get in Touch</h2>
 
-                <p>Phone: <a href="tel:9054300952" class="phone-link">905-430-0952</a></p>
+                <p>
+                    Phone:
+                    <a href="tel:9054300952" class="phone">
+                        905-430-0952
+                    </a>
+                </p>
 
-                <p>Address: 112 Warren Road, Unit 2, Whitby, ON</p>
+                <p>
+                    112 Warren Road, Unit 2<br>
+                    Whitby, ON
+                </p>
 
                 <p>Follow Us:</p>
-                <div class="social-links-container">
-                    <a href="https://instagram.com/dannymapleauto/" class="social-link" target="_blank" rel="noopener">
-                        <i class="fab fa-instagram"></i> Instagram
+
+                <div class="social-links">
+
+                    <a
+                        href="https://instagram.com/dannymapleauto/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <i class="fab fa-instagram"></i>
+                        Instagram
                     </a>
-                    <a href="https://facebook.com/dannymapleauto/" class="social-link" target="_blank" rel="noopener">
-                        <i class="fab fa-facebook"></i> Facebook
+
+                    <a
+                        href="https://facebook.com/dannymapleauto/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <i class="fab fa-facebook"></i>
+                        Facebook
                     </a>
+
                 </div>
             </div>
-            <div class="map-embed">
-                <iframe src="https://google.com|2i768|4f13.1!3m3!1m2!1s0x89d51dee83fa74df%3A0xe5be2f6279f6fa11!2s112%20Warren%20Rd%2C%20Whitby%2C%20ON%20L1N%202B2!5e0!3m2!1sen!2sca!4v1710000000000!5m2!1sen!2sca" width="100%" height="250" style="border:0; border-radius:1rem;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
- 
-        <!-- FOOTER -->
-        <footer id="footer">
-            <p>© 2026 Danny Maple Auto. All rights reserved. Handcrafted in Whitby.</p>
-        </footer>
 
-        <script src="script.js"></script>
-    </body>
+
+            <div class="map">
+
+                <iframe
+                    src="https://www.google.com/maps?q=112%20Warren%20Road%2C%20Whitby%2C%20ON%20L1N%202B2&output=embed"
+                    width="100%"
+                    height="280"
+                    loading="lazy"
+                    allowfullscreen
+                    title="Map showing Danny Maple Auto in Whitby"
+                ></iframe>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <p>
+            &copy; 2026 Danny Maple Auto. All rights reserved.
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
 </html>
