@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const statusSpan = document.getElementById("shop-status");
+    const statusSpan = document.getElementById("autoshop-status");
     
     if (!statusSpan) return;
 
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentHour = now.getHours();
     const currentMinutes = now.getMinutes();
     
-    // Convert time to deci format (e.g., 9:30 AM = 9.5)
+    // Convert time to deci format (e.g. 9:30 AM = 9.5)
     const digitalTime = currentHour + (currentMinutes / 60);
 
     // Business hours
